@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .field {
+  color: #f34;
+}
+.wrapper input.field {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+.wrapper select.field {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+.wrapper input.field {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

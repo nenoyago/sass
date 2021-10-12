@@ -1,0 +1,13 @@
+$sizes: (
+  'xs': 50px,
+  'sm': 100px,
+  'md': 200px,
+);
+
+@each $key, $value in $sizes {
+  .photo-#{$key} {
+    width: $value;
+    height: $value;
+    border-radius: 50%;
+  }
+}
